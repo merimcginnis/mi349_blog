@@ -3,14 +3,41 @@ html {
 }
 
 body {
+    min-height: 100em;
     font-family: Arial, Helvetica, sans-serif;
     margin: 40px;
     padding: 40px;
     color: rgb(53, 49, 49);
     background-color: white;
     border-top: 10px solid cornflowerblue;
-    background #fff;
+    background-color: #ffffff;
 
+}
+
+nav {
+    position: sticky;
+    top: 0;
+
+    ul {
+        width: 100%;
+        display: flex;
+        justify-content: right;
+        padding: 20px;
+        background: white;
+        
+        li {
+          list-style: none;
+          margin-right: 20px;
+          font-size: 25px;
+          font-weight: bold;
+          
+          a {
+            text-decoration:none;
+            color: cornflowerblue;
+          }
+        }
+      }
+    }
 }
 
 h1 {
@@ -22,13 +49,19 @@ h1 {
 p {
     font-size: 1em;
     font-weight: 200;
-    margin: 10;
+    margin: 10px;
 }
 
 blog {
     border-top: 1px solid #ccc;
 }
 
-.blog-post {
+.float-right {
+    margin: 20px;
+    border-top: 1px solid #ccc;
+}
+
+.float-left {
+    margin: 20px;
     border-top: 1px solid #ccc;
 }
