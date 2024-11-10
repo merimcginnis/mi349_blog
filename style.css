@@ -7,7 +7,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 40px;
     padding: 40px;
-    color: rgb(53, 49, 49);
+    color: #222;
     background-color: white;
     border-top: 10px solid cornflowerblue;
     background-color: #ffffff;
@@ -38,7 +38,6 @@ nav {
         }
       }
     }
-}
 
 h1 {
     font-size: 3em;
@@ -49,6 +48,7 @@ h1 {
 p {
     font-size: 1em;
     font-weight: 200;
+    margin: 10px;
 }
 
 blog {
@@ -59,16 +59,22 @@ blog {
     border-top: 1px solid #ccc;
 }
 
-.float-right {
-    float: right;
+figure {
     margin: 10px;
     border: 5px solid cornflowerblue;
     box-shadow: 5px 5px 5px #ccc;
+    width: 300px;
+    text-align: center;
+    float: right;
 }
 
-.float-left {
-    float: left;
-    margin: 10px;
-    border: 5px solid cornflowerblue;
-    box-shadow: 5px 5px 5px #ccc;
+figure img {
+    width: 100%;
+    height: auto;
 }
+
+figcaption {
+    font-size: smaller;
+    font-style: italic;
+    padding: 3px;
+  }
