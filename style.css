@@ -49,19 +49,26 @@ h1 {
 p {
     font-size: 1em;
     font-weight: 200;
-    margin: 10px;
 }
 
 blog {
     border-top: 1px solid #ccc;
 }
 
-.float-right {
-    margin: 20px;
+.blog-post {
     border-top: 1px solid #ccc;
 }
 
+.float-right {
+    float: right;
+    margin: 10px;
+    border: 5px solid cornflowerblue;
+    box-shadow: 5px 5px 5px #ccc;
+}
+
 .float-left {
-    margin: 20px;
-    border-top: 1px solid #ccc;
+    float: left;
+    margin: 10px;
+    border: 5px solid cornflowerblue;
+    box-shadow: 5px 5px 5px #ccc;
 }
